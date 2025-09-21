@@ -1,4 +1,4 @@
-package com.example.todoc.Model;
+package com.example.todoc.model;
 
 import jakarta.persistence.*;
 import lombok.*;

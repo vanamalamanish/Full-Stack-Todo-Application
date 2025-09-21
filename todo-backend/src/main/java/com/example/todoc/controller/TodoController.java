@@ -1,4 +1,4 @@
-package com.example.todoc.Controller;
+package com.example.todoc.controller;
 
 import java.util.List;
 
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.todoc.Model.Todo;
-import com.example.todoc.Repository.TodoRepository;
+import com.example.todoc.model.Todo;
+import com.example.todoc.repository.TodoRepository;
 
 @RestController
 @RequestMapping("/api/todos")
