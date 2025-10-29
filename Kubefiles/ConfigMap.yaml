@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: todo-app-config
+data:
+  SPRING_PROFILES_ACTIVE: "prod"
+  SPRING_DATASOURCE_URL: "jdbc:mysql://todo-db-service:3306/tododb"
+  SPRING_DATASOURCE_USERNAME: "todo_user"
+  SERVER_PORT: "8080"
